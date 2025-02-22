@@ -1,0 +1,38 @@
+{
+    "name": "Lucas Noal Pötter",
+    "title": "Assistente de Almoxarife",
+    "contact": {
+        "email": "lucas.np.rs.work@gmail.com",
+        "phone": "(55) 9 9728-6358",
+        "github": "github.com/lnpotter",
+        "linkedin": "linkedin.com/in/lucas-noal-pötter-11773b25b"
+    },
+    "summary": "Profissional com mais de quatro anos de experiência em logística. Focado em Engenharia Elétrica e Eletrônica.",
+    "experience": [
+        {
+            "company": "CORSAN - Companhia Riograndense de Saneamento",
+            "role": "Estagiário",
+            "period": "Outubro/2022 - Abril/2024",
+            "description": "Organização de documentos físicos, alimentação de planilhas com dados jurídicos e financeiros; gerenciamento de estoque virtual via ConsistGEM, realizando baixas e transferências de materiais consumidos ou transportados fisicamente nas estrutruas da empresa. "
+        },
+        {
+            "company": "CORSAN - Companhia Riograndense de Saneamento",
+            "role": "Aprendiz",
+            "period": "Outubro/2020 - Setembro/2022",
+            "description": "Organização de materiais físicos, desenvolvimento e alimentação de planilhas e aprendizado sobre gerenciamento de estoque em geral."
+        }
+    ],
+    "education": [
+        {
+            "institution": "Escola Estadual de Ensino Médio Plácido de Castro",
+            "degree": "Ensino Médio",
+            "period": "2020 - 2023"
+        },
+        {
+            "institution": "UNINTER",
+            "degree": "Engenharia Elétrica",
+            "period": "2025 - 2030"
+        }
+    ],
+    "skills": ["Criatividade", "Trabalho em equipe", "Curiosidade"]
+}

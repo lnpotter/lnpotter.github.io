@@ -1,21 +1,21 @@
 <h1>{{name}}</h1>
-<p>{{title}}</p>
+<p class="subtitle">{{title}}</p>
 
-<div class="section">
+<div class="section" style="--order: 1;">
     <h2>Contato</h2>
     <p>Email: {{contact.email}}</p>
     <p>Telefone: {{contact.phone}}</p>
-    <p>GitHub: <a href="https://{{contact.github}}">{{contact.github}}</a></p>
-    <p>LinkedIn: <a href="https://{{contact.linkedin}}">{{contact.linkedin}}</a></p>
+    <p>GitHub: <a href="https://{{contact.github}}" target="_blank">{{contact.github}}</a></p>
+    <p>LinkedIn: <a href="https://{{contact.linkedin}}" target="_blank">{{contact.linkedin}}</a></p>
 </div>
 
-<div class="section">
+<div class="section" style="--order: 2;">
     <h2>Resumo</h2>
     <p>{{summary}}</p>
 </div>
 
-<div class="section">
-    <h2>Experiências</h2>
+<div class="section" style="--order: 3;">
+    <h2>Experiência</h2>
     {{#each experience}}
         <h3>{{role}} - {{company}}</h3>
         <p>{{period}}</p>
@@ -23,15 +23,15 @@
     {{/each}}
 </div>
 
-<div class="section">
-    <h2>Graduações</h2>
+<div class="section" style="--order: 4;">
+    <h2>Educação</h2>
     {{#each education}}
         <h3>{{degree}} - {{institution}}</h3>
         <p>{{period}}</p>
     {{/each}}
 </div>
 
-<div class="section">
+<div class="section" style="--order: 5;">
     <h2>Habilidades</h2>
     <ul>
         {{#each skills}}
